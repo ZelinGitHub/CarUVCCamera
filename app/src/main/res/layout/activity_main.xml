@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blackff000000">
+
+    <ImageView
+            android:scaleType="centerInside"
+            android:id="@+id/iv_exit"
+            android:src="@drawable/close"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="48dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.serenegiant.widget.UVCCameraTextureView
+            android:id="@+id/camera_view"
+            android:layout_width="1600dp"
+            android:layout_height="900dp"
+            android:layout_marginTop="128dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+    <ImageView
+            android:id="@+id/iv_capture_anim"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/camera_view"
+            app:layout_constraintEnd_toEndOf="@id/camera_view"
+            app:layout_constraintStart_toStartOf="@id/camera_view"
+            app:layout_constraintTop_toTopOf="@id/camera_view" />
+
+    <com.wt.carcamera.view.CountDownTimerNow
+            android:id="@+id/cdtn_take_picture_counter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/camera_view"
+            app:layout_constraintEnd_toEndOf="@id/camera_view"
+            app:layout_constraintStart_toStartOf="@id/camera_view"
+            app:layout_constraintTop_toTopOf="@id/camera_view" />
+
+    <com.wt.carcamera.view.CameraTips
+            android:id="@+id/camera_error_tips"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@id/camera_view"
+            app:layout_constraintLeft_toLeftOf="@id/camera_view"
+            app:layout_constraintRight_toRightOf="@id/camera_view"
+            app:layout_constraintTop_toTopOf="@id/camera_view" />
+
+    <ImageView
+            android:layout_marginStart="252dp"
+            android:id="@+id/iv_to_album"
+            android:layout_width="136dp"
+            android:layout_height="136dp"
+            android:background="@drawable/shape_btn_to_album"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_media_image"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/camera_view"
+            android:layout_marginTop="92dp" />
+
+
+    <ImageView
+            android:id="@+id/iv_capture_back"
+            android:layout_width="148dp"
+            android:layout_height="148dp"
+            android:layout_marginTop="86dp"
+            app:layout_goneMarginTop="86dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/catpure_outline"
+            app:layout_constraintTop_toBottomOf="@id/camera_view"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+            android:id="@+id/iv_capture"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/capture_circle"
+            app:layout_constraintTop_toTopOf="@id/iv_capture_back"
+            app:layout_constraintBottom_toBottomOf="@id/iv_capture_back"
+            app:layout_constraintStart_toStartOf="@id/iv_capture_back"
+            app:layout_constraintEnd_toEndOf="@id/iv_capture_back" />
+
+
+    <View
+            android:id="@+id/v_cover"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/blackB3000000"
+            android:clickable="true"
+            android:visibility="gone"
+            app:layout_constraintTop_toBottomOf="@id/camera_view"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

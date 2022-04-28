@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Camera</string>
+
+    <string name="tip_camera_disconnect">The camera connection is abnormal, please check the camera</string>
+    <string name="tip_camera_switch_off">The camera is off, please turn it on in vehicle settings</string>
+    <string name="go_switch_on">Open</string>
+
+    <string name="not_tips_anymore">Don\'t prompt again</string>
+    <string name="next_tip">next</string>
+    <string name="click_software_button">1.Click the Photo button</string>
+    <string name="click_physical_button">2.The voice says I want to take a picture</string>
+
+    <string name="previous_tip">previous</string>
+    <string name="click_to_preview">Click preview photo</string>
+
+    <string name="settings">settings</string>
+    <string name="character_tag">Character tag recognition</string>
+    <string name="remote_take_picture_permission">Remote photographing permission</string>
+    <string name="character_expression">Take photo by expression</string>
+
+    <string name="desc_character_tag_recognition">After opening, the display will be personalized according to your expression</string>
+    <string name="desc_incall_app_remote_take_picture">When this function is enabled, you will be allowed to view the vehicle / internal and external conditions of the vehicle through Chang\'an incall, and take photos or videos.</string>
+    <string name="desc_character_expression_recognition">After opening, xiao\'an will automatically capture happy moments for you on the photo page.</string>
+
+    <string name="media_recorder_info_max_duration_reached">The recording time has reached 5 minutes</string>
+    <string name="media_recorder_info_in_background_reached">The recording stops and the video is saved to the album</string>
+    <string name="sdcard_space_fulled">Album storage space is full,save fail</string>
+    <string name="speed_over_content">The speed is too fast, pay attention to safety</string>
+    <string name="speed_over_title">App is about to exit</string>
+    <string name="speed_over_40km">vehicle speed is greater than or equal to 40km / h</string>
+    <string name="plz_using_camera_when_low_speed">Please use it when the vehicle speed is lower than 40km / h</string>
+    <string name="exit_app_soon">About to exit the program</string>
+
+    <string name="eys_closed_request_wanna_to_retry">Check whether the closed eyes are re photographed?</string>
+    <string name="retry_take_picture">Retry</string>
+    <string name="not_need_retry_take_picture">That\'s OK（%dS）</string>
+    <string name="txt_capture">Photo</string>
+    <string name="txt_record">Video</string>
+    <string name="txt_continue_capture">Continuous</string>
+    <string name="txt_complete">Done</string>
+    <string name="txt_delay_capture">Delay</string>
+    <string name="txt_continue_times">Number</string>
+    <string name="txt_time_interval">Interval</string>
+    <string name="txt_delay_time">Interval</string>
+    <string name="txt_capture_way">Photo way:</string>
+    <string name="txt_close">Close</string>
+    <string name="toast_disable_capture">Unable to take photos in current gea</string>
+    <string name="toast_record_interrupt">The video recording has been interrupted. Please check it in the album</string>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~  UVCCamera
+  ~  library and sample to access to UVC web camera on non-rooted Android device
+  ~
+  ~ Copyright (c) 2014-2017 saki t_saki@serenegiant.com
+  ~
+  ~  Licensed under the Apache License, Version 2.0 (the "License");
+  ~  you may not use this file except in compliance with the License.
+  ~   You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~   Unless required by applicable law or agreed to in writing, software
+  ~   distributed under the License is distributed on an "AS IS" BASIS,
+  ~   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~   See the License for the specific language governing permissions and
+  ~   limitations under the License.
+  ~
+  ~  All files in the folder are under this Apache License, Version 2.0.
+  ~  Files in the libjpeg-turbo, libusb, libuvc, rapidjson folder
+  ~  may have a different license, see the respective files.
+  -->
+
+<resources>
+    <string name="app_name">拍照</string>
+
+    <string name="tip_camera_disconnect">摄像头连接异常，请检查摄像头</string>
+    <string name="tip_camera_switch_off">摄像头已关闭，请在车辆设置中开启</string>
+    <string name="go_switch_on">去开启</string>
+
+    <string name="not_tips_anymore">不再提示</string>
+    <string name="next_tip">下一条</string>
+    <string name="click_software_button">1. 点击“拍照”按钮</string>
+    <string name="click_physical_button">2. 语音说我要拍照</string>
+
+    <string name="previous_tip">上一条</string>
+    <string name="click_to_preview">点击预览照片</string>
+
+    <string name="settings">设置</string>
+    <string name="character_tag">人物标签识别</string>
+    <string name="remote_take_picture_permission">远程查看权限</string>
+    <string name="character_expression">表情识别拍照</string>
+
+    <string name="desc_character_tag_recognition">开启后根据表情进行个性化识别展示</string>
+    <string name="desc_incall_app_remote_take_picture">开启后允许通过长安inCall控制相机</string>
+    <string name="desc_character_expression_recognition">开启后抓拍欢乐瞬间，识别间隔10分钟</string>
+
+    <string name="media_recorder_info_max_duration_reached">录制时长到达5分钟，视频已保存至相册</string>
+    <string name="media_recorder_info_in_background_reached">录制停止，视频已保存至相册</string>
+    <string name="sdcard_space_fulled">相册储存空间已满，保存失败</string>
+    <string name="speed_over_content">车速过快，注意安全</string>
+    <string name="speed_over_title">应用即将退出</string>
+    <string name="speed_over_40km">车速高于40km/h，无法拍照</string>
+    <string name="plz_using_camera_when_low_speed">请在车速低于40km/h时使用</string>
+    <string name="exit_app_soon">即将退出程序</string>
+
+    <string name="eys_closed_request_wanna_to_retry">检查到闭眼是否重拍？</string>
+    <string name="retry_take_picture">重拍</string>
+    <string name="not_need_retry_take_picture">不用了（%d秒）</string>
+    <string name="txt_capture">拍照</string>
+    <string name="txt_record">摄像</string>
+    <string name="txt_continue_capture">连拍</string>
+    <string name="txt_delay_capture">延迟拍摄</string>
+    <string name="txt_complete">完成</string>
+    <string name="txt_continue_times">连拍次数</string>
+    <string name="txt_time_interval">时间间隔</string>
+    <string name="txt_delay_time">延迟时间(s)</string>
+    <string name="txt_capture_way">拍照方式：</string>
+    <string name="txt_close">关闭</string>
+    <string name="toast_disable_capture">当前档位无法拍照</string>
+    <string name="toast_record_interrupt">录像已中断，请在相册查看</string>
+    <string name="exit">返回</string>
+    <string name="restore">重置</string>
+    <string name="skin_care">美\n颜</string>
+    <string name="filter">滤\n镜</string>
+    <string name="sticker">贴\n纸</string>
+    <string name="to_fun_camera">进入趣味拍照</string>
+    <string name="to_album">进入相册</string>
+    <string name="compare">对比</string>
+</resources>
+
